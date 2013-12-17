@@ -11,9 +11,9 @@ def template():
 
 @expose('/template1')
 def template1():
-    #return {'content' : 'WOzhaochenjie'}
-    #return dict(content='Da')
-    content = 'XIAO'
-    return locals()
+    return {'content' : 'WOzhaochenjie'}
+    #return dict(content='Da')  #方式一
+    #content = 'XIAO'  # 方式二
+    #return locals()
 
 
